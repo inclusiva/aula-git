@@ -24,5 +24,6 @@ git remote -v
 criando uma nova branch e indo para ela
 git checkout -b <nome da branch>
 
-vincular nova branch local com nome branch remota (só precisa ser feito uma vez)
+vincular nova branch local com nova branch remota (só precisa ser feito uma vez, depois que vincular a primeira vez, basta usar git push normalmente)
 git push --set-upstream origin <nome da branch>
+

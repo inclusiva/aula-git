@@ -18,11 +18,16 @@ git push
 mostra o link do github
 git remote -v 
 
+sincronizar alterações do repositório remoto com o local
+git pull
 
 
 ## branches
 criando uma nova branch e indo para ela
 git checkout -b <nome da branch>
+
+muda para a branch
+git checkout <nome da branch>
 
 vincular nova branch local com nova branch remota (só precisa ser feito uma vez, depois que vincular a primeira vez, basta usar git push normalmente)
 git push --set-upstream origin <nome da branch>
